@@ -1,0 +1,25 @@
+<resources>
+    <!-- שלב 1: יצירת Database והכנסת רשומה -->
+
+    <string name="app_name">SQLite שלב 1</string>
+    <string name="app_title">ניהול סטודנטים</string>
+    <string name="stage_description">שלב 1: יצירת Database והכנסת רשומה</string>
+
+    <!-- שדות קלט -->
+    <string name="hint_name">שם הסטודנט</string>
+    <string name="hint_grade">ציון (0-100)</string>
+
+    <!-- כפתורים -->
+    <string name="btn_add_student">➕ הוסף סטודנט</string>
+
+    <!-- הוראות -->
+    <string name="instructions">1. הרץ את האפליקציה\n2. Android Studio → View → Tool Windows → App Inspection\n3. בחר את המכשיר והאפליקציה\n4. Database Inspector → students.db → students</string>
+
+    <!-- הודעות -->
+    <string name="msg_student_added">סטודנט נוסף בהצלחה!</string>
+    <string name="msg_error">שגיאה בהוספת סטודנט</string>
+    <string name="msg_empty_name">נא להזין שם</string>
+    <string name="msg_empty_grade">נא להזין ציון</string>
+    <string name="msg_invalid_grade">ציון לא תקין</string>
+    <string name="msg_grade_range">הציון חייב להיות בין 0 ל-100</string>
+</resources>
